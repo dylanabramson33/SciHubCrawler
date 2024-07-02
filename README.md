@@ -1,2 +1,1 @@
 # SciHubCrawler
-# ScihubCrawler
