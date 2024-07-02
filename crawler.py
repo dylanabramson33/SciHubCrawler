@@ -63,7 +63,7 @@ class SciHubCrawler:
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Download PDF from a specified URL using a given reference.")
-    parser.add_argument("url", help="The URL of the website to navigate to", default="https://sci-hub.scrongyao.com/")
+    parser.add_argument("url", help="SciHub url to use", default="https://sci-hub.scrongyao.com/")
     parser.add_argument("reference", help="The reference to enter in the textarea")
     parser.add_argument("-d", "--download_dir", default="./Downloads", help="The directory to save the downloaded PDF (default: ./Downloads)")
     return parser.parse_args()
